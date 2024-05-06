@@ -1,0 +1,13 @@
+Conclusiones de la Prueba
+
+Durante la ejecución de las pruebas del API, se observaron los siguientes puntos:
+
+1. El API mostró un rendimiento estable sin intermitencias mientras estaba en uso, lo que sugiere una buena estabilidad en su funcionamiento.
+
+2. La API no tiene restricciones en cuanto al número de peticiones, lo que facilita la ejecución de pruebas sin necesidad de ajustes adicionales en este aspecto.
+
+3. El uso de Karate simplifica significativamente el proceso de pruebas. Sin embargo, es importante tener cuidado con la configuración y la lógica de las pruebas para garantizar resultados precisos y confiables.
+
+Estas conclusiones proporcionan una visión general de la experiencia durante las pruebas del API y destacan tanto los aspectos positivos como las consideraciones importantes a tener en cuenta al utilizar Karate para pruebas automatizadas.
+
+¡Si necesitas más información o detalles adicionales, no dudes en preguntar!
