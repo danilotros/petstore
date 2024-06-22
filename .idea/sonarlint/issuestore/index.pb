@@ -3,8 +3,6 @@
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 W
 'src/test/java/bp/ec/RunnerPetStore.java,9\e\9ead6b1d82f393b04f1424b9d6b03ce3c1a028b4
-T
-$src/test/java/bp/ec/petstore.feature,c\9\c9d9c4eaae192fa8f4ca60c8c195f5e9d0e9514d
 c
 3target/cucumber-html-reports/overview-features.html,f\d\fdc93fdbd463800c1f97fec6bc016a96f0c2254c
 `
@@ -17,7 +15,7 @@ _
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-T
-$src/test/java/bp/ec/Petstore.feature,d\5\d54df049e35bea8812228c14079f7e19ea5c86a0
 Q
 !src/test/java/bp/ec/store.feature,3\6\3672787a6f0bff29ea1beece9683bd00c80bd871
+Q
+!src/test/java/RunnerPetStore.java,2\e\2ed63e3b22f9c832c151148bcb08877c4d3dd507

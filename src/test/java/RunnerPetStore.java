@@ -1,5 +1,3 @@
-package bp.ec;
-
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import net.masterthought.cucumber.ReportBuilder;
@@ -16,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class RunnerPetStore {
     @Test
      void testParallel() {
-        Results results = Runner.path("classpath:bp/ec/store.feature")
+        Results results = Runner.path("classpath:store.feature")
                 .karateEnv("test")
                 .backupReportDir(false)
                 .parallel(1);
