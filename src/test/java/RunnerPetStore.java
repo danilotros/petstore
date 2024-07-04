@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class RunnerPetStore {
     @Test
      void testParallel() {
-        Results results = Runner.path("classpath:store.feature")
+        Results results = Runner.path("classpath:feature/store.feature")
                 .karateEnv("test")
                 .backupReportDir(false)
                 .parallel(1);
