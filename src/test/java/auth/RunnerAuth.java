@@ -1,9 +1,12 @@
+package auth;
+
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
+import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
-import net.masterthought.cucumber.Configuration;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,11 +14,12 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class RunnerPetStore {
+public class RunnerAuth {
     @Test
-     void testParallel() {
-        Results results = Runner.path("classpath:feature/store.feature")
-                .karateEnv("test")
+    void testParallel() {
+        Results results = Runner.path("classpath:auth/feature/store.feature")
+                .karateEnv("qa")
+                .outputCucumberJson(true)
                 .backupReportDir(false)
                 .parallel(1);
         generateReport(results.getReportDir());
