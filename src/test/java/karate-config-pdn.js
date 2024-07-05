@@ -1,9 +1,8 @@
 function fn() {
     var microsoftTokenAuth = karate.properties['karate.microsoftTokenAuth'];
     var config = {
-        global: {
-            access_token: microsoftTokenAuth
-        },
+        urlBase: 'https://petstore.swagger.io/v2/',
+        microsoftTokenAuth:microsoftTokenAuth
     };
     return config;
 }

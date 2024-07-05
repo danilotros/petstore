@@ -3,7 +3,7 @@ function fn() {
     var user = "postman";
     var password = "password";
 
-    var result= karate.call('classpath:auth/feature/oauth.feature', {
+    var result= karate.callSingle('classpath:auth/feature/oauth.feature', {
         username: user,
         password: password
     });

@@ -3,7 +3,7 @@ Feature: Pet Store
 
     * def requestPayload = read('classpath:petstore/payload/petrequest.json')
     * print urlBase
-    * print microsoftTokenAuth
+    * print 'microsoftTokenAuth: ' + microsoftTokenAuth
 
   @primero
   Scenario Outline: Añadir Mascota a la tienda
